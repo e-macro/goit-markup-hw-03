@@ -20,6 +20,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding-right: 0;
@@ -29,15 +33,19 @@ ul {
 }
 
 .page-header {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-grow: 1;
+    border-bottom: 1px solid #e7e9fc
 }
 
-.address-nav .contact {
-    justify-content: flex-end;
+.header-nav {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .order-service-button {
@@ -83,6 +91,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .link-nav .link:hover,
@@ -100,6 +109,8 @@ ul {
 .address-nav .contact {
     text-decoration: none;
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 
 .address-nav .contact:hover,
