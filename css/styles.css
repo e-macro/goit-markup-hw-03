@@ -72,6 +72,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-left: 76px;
 }
 
 .logo-span-header {
@@ -82,6 +83,11 @@ img {
 .logo-span-footer {
     color: #F4F4FD;
     text-decoration: none;
+}
+
+.link-nav {
+    display: flex;
+    gap: 40px;
 }
 
 .link-nav .link {
@@ -104,6 +110,11 @@ img {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.nav-contacts {
+    display: flex;
+    gap: 40px;
 }
 
 .address-nav .contact {
