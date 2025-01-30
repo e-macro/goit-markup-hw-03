@@ -36,7 +36,7 @@ ul {
     flex-grow: 1;
 }
 
-.page-header .contact {
+.address-nav .contact {
     justify-content: flex-end;
 }
 
