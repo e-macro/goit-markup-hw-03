@@ -4,8 +4,40 @@ body {
     background-color: #ffffff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.page-header .contact {
+    justify-content: flex-end;
 }
 
 .order-service-button {
