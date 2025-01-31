@@ -26,10 +26,10 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .page-header {
@@ -40,12 +40,13 @@ img {
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+    align-items: center;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 40px;
+    margin-right: auto;
 }
 
 .order-service-button {
@@ -60,6 +61,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
 }
 
 .order-service-button:hover,
@@ -103,6 +105,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .link-nav .link:hover,
@@ -163,6 +166,9 @@ h3 {
 .main-page-text {
     color: #ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .advantages {
